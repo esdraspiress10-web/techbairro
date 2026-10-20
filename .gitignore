@@ -1,0 +1,5 @@
+techbairro.db
+__pycache__/
+*.pyc
+dist/
+*.zip
