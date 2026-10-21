@@ -1,3 +1,9 @@
+# Changelog
+
+## Em desenvolvimento
+### Adicionado
+- Código publicado no GitHub, com histórico de versões.
+
 ## v3.3.1 (Aula 21)
 ### Alterado
 - O código do sistema foi refatorado e separado em camadas (Modelo, Dados, Regras de Negócio e Tela).
@@ -17,6 +23,7 @@
 ## v3.2.1 (Aula 18)
 ### Alterado
 - O número da versão passou a ser centralizado em uma única constante no código.
+
 ### Adicionado
 - Script `scripts/gerar_pacote.py` para automatizar a criação do arquivo `.zip` de distribuição.
 - Arquivo `COMO_EXECUTAR.txt` com instruções para a execução do programa.
