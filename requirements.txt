@@ -1,0 +1,4 @@
+# A TechBairro não possui dependências externas.
+# Utiliza apenas bibliotecas da biblioteca padrão do Python:
+# tkinter - interface gráfica
+# sqlite3 - banco de dados

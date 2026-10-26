@@ -1,4 +1,3 @@
-
 import sqlite3
 
 
@@ -19,5 +18,12 @@ class GerenciadorClientes:
         """)
         self.conexao.commit()
 
+    def excluir_cliente(self, cliente_id):
+        self.conexao.execute(
+            "DELETE FROM clientes WHERE id = ?",
+            (cliente_id,)
+        )
+        self.conexao.commit()
+
     def fechar(self):
-        self.conexao.close()
+        self.conexao.close() 

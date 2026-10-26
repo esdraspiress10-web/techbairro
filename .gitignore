@@ -1,5 +1,9 @@
-techbairro.db
+# Banco de dados
+*.db
+
+# Arquivos gerados pelo Python
 __pycache__/
 *.pyc
+
+# Arquivos de distribuição
 dist/
-*.zip
